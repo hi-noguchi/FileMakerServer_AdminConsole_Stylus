@@ -1,0 +1,87 @@
+:root {
+  --color-main-blue: #1D9BF0;
+  --color-main-black: #333;
+}
+
+
+a,
+.btn-dropdown-noborder, 
+.btn-noborder {
+  color: var(--color-main-blue) !important;
+}
+
+body {
+  background-color: var(--color-main-black);
+  color: white;
+}
+
+input.toggle-btn:checked+label:before {
+  background-color: var(--color-main-blue) !important;
+}
+
+thead {
+  background-color: #eee !important;
+}
+
+
+
+#footer-links a,
+.btn:hover,
+.copyright-info a,
+.dashboard-data,
+.graph-legend-x,
+.graph-legend-y,
+.nav-item > a,
+.sidebar .list-group-item,
+.table td {
+  color: white !important;
+}
+
+
+.body-label,
+.btn-noborder.disabled,
+.btn-noborder:disabled,
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled,
+.client-label,
+.col-min-height .col-m-label,
+.connection-label,
+.copyright-info,
+.no-results,
+.percent_spaceused,
+.show-all,
+.sidebar-label,
+.txt-sort-label {
+  color: #bbb !important;
+}
+
+.btn-outline-primary {
+  border-color: var(--color-main-blue) !important;
+  color: var(--color-main-blue) !important;
+}
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  border-color: #ccc !important;
+}
+
+.dbselected > td,
+.database-list .db-list-alldb span,
+.list-group-item.active,
+.list-item:hover > td,
+.table thead th {
+  color: var(--color-main-black) !important;
+}
+
+.fac-logo {
+  background-color: white !important;
+}
+
+.modal-content,
+.nav-bg {
+  background-color: var(--color-main-black) !important;
+}
+
+.nav-item > a.text-primary {
+  border-bottom: 2px solid white !important;
+  color: white !important;
+}
